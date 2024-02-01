@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Editor from "react-simple-code-editor";
+// @ts-ignore
 import { highlight, languages } from "prismjs/components/prism-core";
 
 import "prismjs/components/prism-clike";
