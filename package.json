@@ -9,7 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@codemirror/language-data": "^6.4.0",
     "@monaco-editor/react": "^4.6.0",
+    "@uiw/codemirror-extensions-basic-setup": "^4.21.21",
+    "@uiw/codemirror-extensions-langs": "^4.21.21",
+    "@uiw/codemirror-theme-github": "^4.21.21",
     "@uiw/codemirror-theme-vscode": "^4.21.21",
     "@uiw/react-codemirror": "^4.21.21",
     "next": "14.1.0",

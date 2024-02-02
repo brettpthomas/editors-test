@@ -10,6 +10,7 @@ function AceTest() {
   return (
     <AceEditor
       width="100%"
+      height="200px"
       value={code}
       mode="javascript"
       theme="monokai"

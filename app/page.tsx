@@ -6,19 +6,19 @@ import AceTest from "./editor-ace";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col justify-between p-24 max-w-[800px]">
+    <main className="flex min-h-screen flex-col p-24 max-w-[800px]">
       
       <App />
 
-      <hr />
+      <div style={{height: "2rem"}}/>
 
       <CodeMirrorTest />
 
-      <hr />
+      <div style={{height: "2rem"}}/>
 
       <MonacoTest />
 
-      <hr />
+      <div style={{height: "2rem"}}/>
 
       <AceTest />
 
