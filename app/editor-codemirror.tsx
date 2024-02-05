@@ -12,7 +12,7 @@ function CodeMirrorTest() {
     return (
       <CodeMirror
         value={code}
-        minHeight="200px"
+        minHeight="300px"
         width="100%"
         theme={githubLight}
         basicSetup={true}

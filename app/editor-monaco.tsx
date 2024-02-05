@@ -6,7 +6,7 @@ function MonacoTest() {
   return (
     <div style={{minHeight: "200px"}}>
     <Editor
-      height="200px"
+      height="300px"
       language="javascript"
       theme="vs-dark"
       value={code}

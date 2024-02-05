@@ -9,7 +9,7 @@ import "prismjs/components/prism-clike";
 import "prismjs/components/prism-javascript";
 import "prismjs/themes/prism.css";
 
-function App() {
+function SimpleTest() {
     const [code, setCode] = useState(
       "var message = 'react simple code editor' \nconsole.log(message);"
     );
@@ -28,4 +28,4 @@ function App() {
       />
     );
   }
-  export default App;
+  export default SimpleTest;
